@@ -1,0 +1,19 @@
+legacy_id,legacy_name,current_id,current_name,current_tactic,change_type,attack_version
+T1562,Impair Defenses,T1685,Disable or Modify Tools,Defense Impairment (TA0112),Merged into new technique,v19
+T1562.001,Impair Defenses: Disable or Modify Tools,T1685,Disable or Modify Tools,Defense Impairment (TA0112),Merged into new technique,v19
+T1562.002,Impair Defenses: Disable Windows Event Logging,T1685.001,Disable or Modify Tools: Disable or Modify Windows Event Log,Defense Impairment (TA0112),Revoked and reissued,v19
+T1562.003,Impair Defenses: Impair Command History Logging,T1690,Prevent Command History Logging,Defense Impairment (TA0112),Revoked and reissued,v19
+T1562.004,Impair Defenses: Disable or Modify System Firewall,T1686,Disable or Modify System Firewall,Defense Impairment (TA0112),Revoked and reissued,v19
+T1562.006,Impair Defenses: Indicator Blocking,T1685,Disable or Modify Tools,Defense Impairment (TA0112),Merged into new technique,v19
+T1562.007,Impair Defenses: Disable or Modify Cloud Firewall,T1686.001,Disable or Modify System Firewall: Cloud Firewall,Defense Impairment (TA0112),Revoked and reissued,v19
+T1562.008,Impair Defenses: Disable or Modify Cloud Logs,T1685.002,Disable or Modify Tools: Disable or Modify Cloud Log,Defense Impairment (TA0112),Revoked and reissued,v19
+T1562.009,Impair Defenses: Safe Mode Boot,T1688,Safe Mode Boot,Defense Impairment (TA0112),Revoked and reissued,v19
+T1562.010,Impair Defenses: Downgrade Attack,T1689,Downgrade Attack,Defense Impairment (TA0112),Revoked and reissued,v19
+T1562.011,Impair Defenses: Spoof Security Alerting,T1685.003,Disable or Modify Tools: Modify or Spoof Tool UI,Defense Impairment (TA0112),Revoked and reissued,v19
+T1562.012,Impair Defenses: Disable or Modify Linux Audit System,T1685.004,Disable or Modify Tools: Disable or Modify Linux Audit System Log,Defense Impairment (TA0112),Revoked and reissued,v19
+T1562.013,Impair Defenses: Disable or Modify Network Device Firewall,T1686.002,Disable or Modify System Firewall: Network Device Firewall,Defense Impairment (TA0112),Revoked and reissued,v19
+T1070.001,Indicator Removal: Clear Windows Event Logs,T1685.005,Disable or Modify Tools: Clear Windows Event Logs,Defense Impairment (TA0112),Revoked and reissued,v19
+T1070.002,Indicator Removal: Clear Linux or Mac System Logs,T1685.006,Disable or Modify Tools: Clear Linux or Mac System Logs,Defense Impairment (TA0112),Revoked and reissued,v19
+,,T1686.003,Disable or Modify System Firewall: Windows Host Firewall,Defense Impairment (TA0112),New sub-technique,v19
+,,T1687,Exploitation for Defense Impairment,Defense Impairment (TA0112),New technique,v19
+,,T1685.007,Disable or Modify Tools: Impair Autonomous Defenses,Defense Impairment (TA0112),New sub-technique,v20

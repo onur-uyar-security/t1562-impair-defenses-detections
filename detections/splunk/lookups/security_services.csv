@@ -1,0 +1,12 @@
+service_display,service_name,product,criticality
+Microsoft Defender Antivirus Service,WinDefend,Microsoft Defender Antivirus,critical
+Windows Defender Antivirus Service,WinDefend,Microsoft Defender Antivirus,critical
+Microsoft Defender Antivirus Network Inspection Service,WdNisSvc,Microsoft Defender Antivirus,high
+Windows Defender Advanced Threat Protection Service,Sense,Microsoft Defender for Endpoint,critical
+Sysmon64,Sysmon64,Sysinternals Sysmon,critical
+Sysmon,Sysmon,Sysinternals Sysmon,critical
+SplunkForwarder Service,SplunkForwarder,Splunk Universal Forwarder,critical
+Windows Event Log,EventLog,Windows Event Log,critical
+Windows Defender Firewall,mpssvc,Windows Firewall,high
+Windows Security Service,SecurityHealthService,Windows Security Center,medium
+Trend Micro Endpoint Basecamp,Endpoint Basecamp,Trend Vision One,critical

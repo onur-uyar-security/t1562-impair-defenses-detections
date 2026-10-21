@@ -1,0 +1,11 @@
+host,site,criticality,device_role,expected_reporting
+DC01,HQ-Ghent,critical,domain-controller,always-on
+DC02,HQ-Ghent,critical,domain-controller,always-on
+FS01,HQ-Ghent,high,file-server,always-on
+WEB01,DMZ,high,web-server,always-on
+LNX-APP01,HQ-Ghent,high,app-server,always-on
+FS-BR01,Branch-Antwerp,high,file-server,always-on
+RTR-EDGE01,HQ-Ghent,critical,router,always-on
+FW-EDGE01,HQ-Ghent,critical,firewall,always-on
+CORE-SW01,HQ-Ghent,high,core-switch,always-on
+WS-0142,HQ-Ghent,low,workstation,business-hours
